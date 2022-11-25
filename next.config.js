@@ -2,6 +2,8 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-}
+  basePath: "/ghpage",
+  assetPrefix: "/ghpage"
+};
 
 module.exports = nextConfig
